@@ -10,7 +10,7 @@ what these workflows actually look like up close.
 ### About Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stevenobiajulu)
-[![OpenAgreements](https://img.shields.io/badge/OpenAgreements-4f46e5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/open-agreements)
+[![open-agreements](https://img.shields.io/badge/open--agreements-4f46e5?style=for-the-badge&logo=github&logoColor=white)](https://github.com/open-agreements)
 [![UseJunior](https://img.shields.io/badge/UseJunior-1f2937?style=for-the-badge&logo=rss&logoColor=white)](https://usejunior.com)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/stevenobiajulu)
 
@@ -35,17 +35,21 @@ what these workflows actually look like up close.
 
 ### Featured Projects
 
-#### [OpenAgreements](https://github.com/open-agreements/open-agreements) ![GitHub stars](https://img.shields.io/github/stars/open-agreements/open-agreements?style=social)
+#### [open-agreements](https://github.com/open-agreements/open-agreements) ![GitHub stars](https://img.shields.io/github/stars/open-agreements/open-agreements?style=social)
 
 25+ free legal agreement templates with DOCX output. NDAs, cloud service agreements, employment contracts, and more -- fill via CLI or API.
 
-#### [safe-docx](https://github.com/usejunior/safe-docx) ![GitHub stars](https://img.shields.io/github/stars/usejunior/safe-docx?style=social)
+#### [safe-docx](https://github.com/usejunior/safe-docx) ![GitHub stars](https://img.shields.io/github/stars/UseJunior/safe-docx?style=social)
 
 Formatting-preserving DOCX edits for AI agents. Surgical text replacement that keeps styles, numbering, and tracked changes intact.
 
 #### [xmldom PR #960](https://github.com/xmldom/xmldom/pull/960)
 
 Implemented the `ParentNode.children` getter for xmldom, the standard XML/DOM parser for Node.js.
+
+#### [WHATWG DOM Spec — PR #1452](https://github.com/whatwg/dom/pull/1452)
+
+Proposed a fix to the DOM Standard's `deleteContents` and `extractContents` algorithms based on an [open issue](https://github.com/whatwg/dom/issues/1446). Google Chromium independently shipped a related fix ([CL 7615530](https://chromium-review.googlesource.com/c/chromium/src/+/7615530)). Approved by Anne van Kesteren (Mozilla).
 
 ### Speaking and Writing
 
