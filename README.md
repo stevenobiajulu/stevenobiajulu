@@ -51,4 +51,4 @@ Implemented the `ParentNode.children` getter for xmldom, the standard XML/DOM pa
 
 - **Harvard Club of NYC** -- AI in Legal Practice (March 2026)
 - **National Bar Association Conference**, Managing Partners Dinner -- UseJunior presentation
-- **Ropes & Gray Alumni Podcast** -- legal AI discussion
+- **Ropes & Gray Alumni Podcast** -- legal AI discussion 
