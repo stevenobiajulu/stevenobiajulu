@@ -47,12 +47,13 @@ Formatting-preserving DOCX edits for AI agents. Surgical text replacement that k
 
 Implemented the `ParentNode.children` getter for xmldom, the standard XML/DOM parser for Node.js.
 
-#### [WHATWG DOM Spec — PR #1452](https://github.com/whatwg/dom/pull/1452)
+#### [WHATWG DOM Standard — PR #1452](https://github.com/whatwg/dom/pull/1452)
 
-Proposed a fix to the DOM Standard's `deleteContents` and `extractContents` algorithms based on an [open issue](https://github.com/whatwg/dom/issues/1446). Google Chromium independently shipped a related fix ([CL 7615530](https://chromium-review.googlesource.com/c/chromium/src/+/7615530)). Approved by Anne van Kesteren (Mozilla).
+Contributed a fix to the DOM Living Standard that reorders steps in `Range.deleteContents()` and `extractContents()` to collapse the range before removals, based on an [open issue](https://github.com/whatwg/dom/issues/1446). Merged March 2026.
 
 ### Speaking and Writing
 
 - **Harvard Club of NYC** -- AI in Legal Practice (March 2026)
 - **National Bar Association Conference**, Managing Partners Dinner -- UseJunior presentation
 - **Ropes & Gray Alumni Podcast** -- legal AI discussion 
+
