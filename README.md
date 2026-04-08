@@ -33,7 +33,7 @@ what these workflows actually look like up close.
 - **Harvard Law School**, Juris Doctor (2015-2018)
 - **MIT**, SB Mechanical Engineering (2009-2013)
 
-### Featured Projects
+### Projects
 
 #### [open-agreements](https://github.com/open-agreements/open-agreements) ![GitHub stars](https://img.shields.io/github/stars/open-agreements/open-agreements?style=social)
 
@@ -43,9 +43,15 @@ what these workflows actually look like up close.
 
 Formatting-preserving DOCX edits for AI agents. Surgical text replacement that keeps styles, numbering, and tracked changes intact.
 
-#### [xmldom PR #960](https://github.com/xmldom/xmldom/pull/960)
+### Contributions to Other Projects
 
-Implemented the `ParentNode.children` getter for xmldom, the standard XML/DOM parser for Node.js.
+#### [xmldom — `ParentNode.children` getter](https://github.com/xmldom/xmldom/pull/960)
+
+Implemented the `ParentNode.children` getter for xmldom, the standard XML/DOM parser for Node.js. Shipped in the [0.9.9 release](https://github.com/xmldom/xmldom/releases/tag/0.9.9). Also backported a regex fix to the 0.8.x release branch in [#962](https://github.com/xmldom/xmldom/pull/962) so `ProcessingInstruction` data preserves trailing whitespace as required by XML spec §2.6.
+
+#### [NemoClaw — Outlook PATCH support](https://github.com/NVIDIA/NemoClaw/pull/1478) *(PR in review)*
+
+Proposed adding PATCH method support to NemoClaw's Outlook preset, so AI agents running under NemoClaw's network policy can update existing emails and drafts via the Microsoft Graph API.
 
 #### [WHATWG DOM Standard — PR #1452](https://github.com/whatwg/dom/pull/1452)
 
