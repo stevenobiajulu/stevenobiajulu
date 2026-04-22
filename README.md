@@ -63,3 +63,16 @@ Contributed a fix to the DOM Living Standard that reorders steps in `Range.delet
 - **National Bar Association Conference**, Managing Partners Dinner -- UseJunior presentation
 - **Ropes & Gray Alumni Podcast** -- legal AI discussion 
 
+
+---
+
+### Cryptographic identity
+
+This account, [UseJunior](https://github.com/UseJunior), and [open-agreements](https://github.com/open-agreements) all share a single Ed25519 key as a cross-domain identity binding:
+
+- **Key ID**: `ed25519:8e508d1976566d46`
+- **Public key**: [`usejunior.com/.well-known/arp/pubkey.json`](https://usejunior.com/.well-known/arp/pubkey.json)
+- **DNS-anchored** at `arp._arp.usejunior.com` (also `arp._arp.openagreements.org` and `arp._arp.openagreements.ai`)
+- **Registered as a GitHub SSH signing key** on this account (one of two — the other signs daily commits)
+
+This is an experimental local profile inspired by IETF [draft-deforth-arp-00](https://datatracker.ietf.org/doc/draft-deforth-arp/) (Agentic Reasoning Protocol).
